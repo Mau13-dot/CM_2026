@@ -1,0 +1,36 @@
+---
+title: "CM 2026 - Week 10"
+author: "Maurits van der Does de Willebois"
+date: "2026-02-27"
+format:
+  dashboard:
+    theme: darkly
+    orientation: columns
+---
+
+# Welcome to week 10 of Computational Musicology 2026!
+
+## Column {width=40%}
+
+### Row {height=20%}
+
+::: {.card}
+Hello world
+:::
+
+## Column {width=40%}
+
+### Row {height=20%}
+
+::: {.card}
+Hello world
+:::
+
+### Row {height=60%}
+
+::: {.card}
+Hello world
+:::
+
+
+
