@@ -1,35 +1,57 @@
 ---
-title: "CM 2026 - Week 10"
+title: "CM 2026"
 author: "Maurits van der Does de Willebois"
-date: "2026-02-27"
+date: "2026-03-06"
 format:
   dashboard:
     theme: darkly
     orientation: columns
 ---
 
-# Welcome to week 10 of Computational Musicology 2026!
+# Welcome to my Git CM 2026 page!
 
 ## Column {width=40%}
-
-### Row {height=20%}
-
-::: {.card}
-Hello world
-:::
-
-## Column {width=40%}
-
-### Row {height=20%}
-
-::: {.card}
-Hello world
-:::
 
 ### Row {height=60%}
 
 ::: {.card}
-Hello world
+The github for Computation Musicology
+
+This repository contains the code and resources for the Computation Musicology course (CM_2026). The course covers various topics in computational musicology, including music analysis, music information retrieval, and machine learning applications in music.
+
+The corpus is based on my 'Your Top 100' playlists from the last 8 years, for which I will try to answer the following questions:
+```{text}
+1. What are the most common musical features across my top songs?
+2. How do these features evolve over time in my listening habits?
+3. Did my tastes change over the years, and if so, how?
+```
+:::
+
+## Column {width=40%}
+
+### Row {height=60%}
+
+::: {.panel-tabset .card}
+
+## Week 9
+::: {layout="[[1,1],[1,1]]"}
+![Chroma](Images/Week 9/Brain Damage Chroma.png)
+![Timbre](Images/Week 9/Brain Damage Timbre.png)
+
+![Chroma](Images/Week 9/Breathe In the Air - Chroma.png)
+![Timbre](Images/Week 9/Breathe In the Air - Timbre.png)
+:::
+The chroma self-similarity matrices reveal recurring harmonic material in both songs, but Brain Damage shows a denser and more varied pattern than Breathe (In the Air), suggesting greater local harmonic contrast. The timbre self-similarity matrices show clearer sectional boundaries in both songs, indicating that changes in texture and production help define form more strongly than harmony alone. Overall, Breathe appears more smooth and structurally regular, while Brain Damage appears more segmented and internally varied. 
+
+## Week 10
+::: {layout="[[1,1],[1,1]]"}
+![Chroma](Images/Week 10/Brain Damage - key.png){width=100%}
+![Chord](Images/Week 10/Brain Damage - chord.png){width=100%}
+
+![Chroma](Images/Week 10/Breathe In the Air - key.png){width=100%}
+![Chord](Images/Week 10/Breathe In the Air - chord.png){width=100%}
+:::
+The key analysis heatmaps are smoother and more stable than the chord analysis heatmaps for both songs, indicating that tonal centre is more constant over time than local chord content. Brain Damage shows a relatively stable tonal framework but a more varied chord profile, suggesting greater local harmonic movement within an overall coherent key area. In contrast, Breathe (In the Air) appears more harmonically uniform, with both the key and chord analyses showing more sustained and repetitive patterns. Overall, the comparison suggests that Breathe is tonally and harmonically more consistent, while Brain Damage contains more local harmonic contrast.
 :::
 
 
