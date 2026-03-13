@@ -25,7 +25,9 @@ The corpus is based on my 'Your Top 100' playlists from the last 8 years, for wh
 2. How do these features evolve over time in my listening habits?
 3. Did my tastes change over the years, and if so, how?
 ```
-For this and last week, I chose two of my favorite songs from my corpus, which are also among the most popular songs in my playlists: "Brain Damage" by Pink Floyd and "Breathe (In the Air)" by Pink Floyd. I will compare the chroma and timbre self-similarity matrices for both songs, as well as the key and chord analyses, to explore their structural and harmonic characteristics.
+For week 9 and week 10, I chose two of my favorite songs from my corpus, which are also among the most popular songs in my playlists: "Brain Damage" by Pink Floyd and "Breathe (In the Air)" by Pink Floyd. I will compare the chroma and timbre self-similarity matrices for both songs, as well as the key and chord analyses, to explore their structural and harmonic characteristics.
+
+For week 11, I chose "Ingobernable" by C. Tangana and Gipsy Kings, which is a song I listened to often when I was in Seville. It is inspired by the flamenco style, which is known for its complex rhythms and energetic grooves. I will analyze the novelty curve and tempograms for this song to reveal its rhythmic structure and how it creates a sense of drive and momentum.
 :::
 
 ## Column {width=40%}
@@ -73,7 +75,7 @@ The key analysis heatmaps are smoother and more stable than the chord analysis h
 :::
 
 ### {height=40%}
-Ingobernable is a song I listened to often when I was in Seville and is also in my corpus. It is inspired by the flamenco style, which is known for its complex rhythms and energetic grooves. The novelty curve and tempograms for this song reveal a lot about its rhythmic structure and how it creates a sense of drive and momentum. 
+
 Because Ingobernable has a strong flamenco-influenced sound, the figures show exactly the kind of rhythmic richness you would expect from a song with sharp accents, guitar-driven energy and a lot of internal motion in the groove. In the novelty curve, this is visible as many clear peaks, which suggests that the song has frequent and pronounced note attacks rather than a soft or blurred pulse. In the tempograms, both methods capture that pulse quite well, but they show it in slightly different ways: the autocorrelation tempogram contains several horizontal bands at different tempo levels, which makes the rhythm look layered and gives the impression that multiple metrical interpretations are active at once, while the Fourier tempogram looks cleaner and more focused with the strongest bands standing out more clearly. What is most visible in the images is that there are several related tempo bands stacked above one another, which points more toward tempo harmonics than sub-harmonics, and that fits the musical character of the song, because a flamenco-based groove often emphasizes not only the main beat but also its faster subdivisions. Together, the images suggest that Ingobernable is rhythmically strong, energetic and full of drive, and that its pulse is clear enough for both analyses to detect, with the Fourier tempogram giving the sharpest picture of that structure.
 
 :::
