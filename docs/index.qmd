@@ -53,7 +53,31 @@ The chroma self-similarity matrices reveal recurring harmonic material in both s
 ![Chord](Images/Week 10/Breathe In the Air - chord.png){width=100%}
 :::
 The key analysis heatmaps are smoother and more stable than the chord analysis heatmaps for both songs, indicating that tonal centre is more constant over time than local chord content. Brain Damage shows a relatively stable tonal framework but a more varied chord profile, suggesting greater local harmonic movement within an overall coherent key area. In contrast, Breathe (In the Air) appears more harmonically uniform, with both the key and chord analyses showing more sustained and repetitive patterns. Overall, the comparison suggests that Breathe is tonally and harmonically more consistent, while Brain Damage contains more local harmonic contrast.
+
+## Week 11
+
+::: {.panel-tabset .card}
+## Novelty
+
+### {height=60%}
+
+![Novelty](Images/Week 11/Ingobernable_Novelty.png){width=100%}
+
+## Autocorrelation
+
+![Autocorrelation](Images/Week 11/Ingobernable_Aut.png){width=100%}
+
+## Fourier
+
+![Fourier](Images/Week 11/Ingobernable_Dft.png){width=100%}
 :::
+
+### {height=40%}
+
+Because Ingobernable has a strong flamenco-influenced sound, the figures show exactly the kind of rhythmic richness you would expect from a song with sharp accents, guitar-driven energy, and a lot of internal motion in the groove. In the novelty curve, this is visible as many clear peaks, which suggests that the song has frequent and pronounced note attacks rather than a soft or blurred pulse. In the tempograms, both methods capture that pulse quite well, but they show it in slightly different ways: the autocorrelation tempogram contains several horizontal bands at different tempo levels, which makes the rhythm look layered and gives the impression that multiple metrical interpretations are active at once, while the Fourier tempogram looks cleaner and more focused, with the strongest bands standing out more clearly. What is most visible in the images is that there are several related tempo bands stacked above one another, which points more toward tempo harmonics than sub-harmonics, and that fits the musical character of the song, because a flamenco-based groove often emphasizes not only the main beat but also its faster subdivisions. Together, the images suggest that Ingobernable is rhythmically strong, energetic, and full of drive, and that its pulse is clear enough for both analyses to detect, with the Fourier tempogram giving the sharpest picture of that structure.
+
+:::
+
 
 
 
