@@ -95,6 +95,7 @@ grid-auto-rows: minmax(0, 1fr);">
 3. Did my tastes change over the years, and if so, how?</code></pre>
 <p>For week 9 and week 10, I chose two of my favorite songs from my corpus, which are also among the most popular songs in my playlists: “Brain Damage” by Pink Floyd and “Breathe (In the Air)” by Pink Floyd. I will compare the chroma and timbre self-similarity matrices for both songs, as well as the key and chord analyses, to explore their structural and harmonic characteristics.</p>
 <p>For week 11, I chose “Ingobernable” by C. Tangana and Gipsy Kings, which is a song I listened to often when I was in Seville. It is inspired by the flamenco style, which is known for its complex rhythms and energetic grooves. I will analyze the novelty curve and tempograms for this song to reveal its rhythmic structure and how it creates a sense of drive and momentum.</p>
+<p>For week 12, I will perform hierarchical clustering on the entire corpus of songs to see how they group together based on their musical features. I will visualize the dendrogram and heatmap to identify any patterns or clusters that emerge, and I will interpret these clusters in terms of genre, production style, vocal delivery, and other musical characteristics.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -109,7 +110,7 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <div class="panel-tabset card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Week 9</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Week 10</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Week 11</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Week 9</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Week 10</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Week 11</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false" href="">Week 12</a></li></ul>
 <div class="tab-content card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div id="tabset-2-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
@@ -209,6 +210,25 @@ grid-auto-rows: minmax(0, 1fr);">
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 </div>
+</div>
+<div id="tabset-2-4" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="quarto-layout-panel html-fill-item html-fill-container" data-layout="[[1,1]]">
+<div class="quarto-layout-row html-fill-item html-fill-container">
+<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><img src="Images/Week%2012/dendogram_2025.png" class="img-fluid" alt="Dendogram"> <img src="Images/Week%2012/Dendoheat_2025.png" class="img-fluid" alt="Dendogram Heatmap"></p>
+</div>
+</div>
+</div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<p>The hierarchical clustering suggests that the corpus is not split into a few perfectly clean genres, but into several broader families of tracks. One noticeable contrast is between quieter, more acoustic or instrumental tracks and louder, more energetic, more danceable tracks. For example, tracks such as “Piano Concerto No.&nbsp;2 in C Minor”, “The Lamp Is Low”, and “Fly Me To The Moon (In Other Words)” sit closer to the more acoustic/instrumental side of the corpus, while tracks such as “Losing It”, “LOVELY BASTARDS”, “Like That”, and “Not Like Us” fit much more clearly into the high-energy, louder, dance-oriented side. There also seems to be a speechier rap-leaning grouping, with songs such as “DNA.”, “HUMBLE.”, “family ties”, and “Not Like Us” likely being pulled together partly because of their stronger speech-like vocal delivery. In contrast, more melodic or classic-sounding tracks such as “This Charming Man - 2011 Remaster”, “Lady - Hear Me Tonight”, or “Little Lies - 2017 Remaster” seem to sit in a different part of the tree. Overall, the dendrogram suggests that the strongest organizing principles in this corpus are not just genre labels, but broader differences in production style, vocal delivery, acousticness, and intensity.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
