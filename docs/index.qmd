@@ -121,7 +121,7 @@ At the corpus level, the analysis asks whether certain tonal centres recur acros
 ::: {.card}
 ### Pitch overview across the corpus
 
-![](Images/All top songs/Week 8/key by year with n1.png){width=100%}
+![](Images/All top songs/Week 8/Key by year with n1.png){width=100%}
 
 This heatmap suggests that my listening history contains **recurring tonal centres** rather than a completely different key profile every year. **C#** appears especially prominent across several years, while other years are distributed more evenly across neighbouring keys, which points to continuity with variation rather than one fixed harmonic preference. The yearly **#1 songs** often fall outside the most common key of the year, showing that standout favourites were not always tonally typical of my broader listening.
 
