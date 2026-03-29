@@ -15,7 +15,7 @@ format:
 ::: {.card}
 ### Project overview
 
-This dashboard presents a computational musicological analysis of my own top songs from **2018 to 2025**, using a merged corpus based on my yearly **“Your Top Songs”** playlists. The aim is to understand both recurring preferences and long-term changes in my listening history.
+This dashboard presents a computational musicological analysis of my own top songs from **2018 to 2025**, using a merged corpus based on my yearly **“Your Top Songs”** playlists. It asks which musical features remain stable across my listening history, which change over time, and whether these changes suggest gradual shifts in taste or more substantial stylistic reorientation.
 
 The project is guided by three research questions:
 
@@ -23,7 +23,28 @@ The project is guided by three research questions:
 2. How do these features evolve over time in my listening habits?  
 3. Did my tastes change over the years, and if so, how?  
 
-The merged corpus is used for broad comparisons across years, while selected tracks are used for more detailed pitch, timbre, harmonic, and temporal analyses. Together, these different levels of analysis make it possible to compare overall listening patterns with close musical detail.
+The merged corpus is used for broad comparisons across years, while the yearly **#1 songs** serve as the main close-reading examples in the more detailed pitch, timbre, harmonic, and temporal analyses. Together, these different levels of analysis make it possible to compare overall listening patterns with close musical detail.
+:::
+
+::: {.card}
+### Main findings
+
+Across **2018–2025**, my listening history appears **more stable than volatile**. The strongest continuities emerge in **metre, tempo, danceability, and broad feature space**, while the clearest variation appears in **valence, timbre, and local temporal articulation**. Overall, the analyses suggest that changes in taste were mostly **gradual rather than abrupt**, with a few standout tracks acting as exceptions rather than evidence of a complete stylistic break.
+:::
+
+::: {.card}
+### Representative tracks
+
+The playlist below contains the **#1 song from each year**, which serve as the main close-reading examples throughout the dashboard. These tracks help connect the visual analyses to concrete listening examples, while the full merged corpus remains the basis for broader year-by-year comparison. The playlist is ordered from the year 2025 to 2018.
+
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/playlist/4J2kSNTUP9FaJoEndCqFEB?utm_source=generator" 
+width="100%" 
+height="352" 
+frameBorder="0" 
+allowfullscreen="" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
 :::
 
 ## Column {width=55%}
@@ -31,12 +52,16 @@ The merged corpus is used for broad comparisons across years, while selected tra
 ::: {.card}
 ### Corpus overview
 
+Before turning to individual feature domains, this corpus overview shows the overall balance of the dataset and highlights the broad listening patterns that already appear at the track level.
+
 ![](Images/Page 1/corpus_overview_page1.png){width=100%}
 
-This corpus overview shows that the dataset is evenly distributed across the years **2018–2025**, which makes year-by-year comparisons more reliable. The feature trends suggest both continuity and change in my listening habits. **Danceability** remains consistently high across the whole period, and **energy** also stays relatively high, which suggests that rhythmically engaging and intense tracks are a stable part of my taste. By contrast, **acousticness** rises over time, especially in the later years, which may indicate a gradual shift toward more acoustic or less densely produced music. **Valence** fluctuates more than the other features, suggesting that the emotional tone of my favorite songs changes from year to year rather than moving in a single direction.
+The corpus is fairly evenly distributed across the years **2018–2025**, which makes year-by-year comparisons more reliable, even if some years may still differ slightly in representativeness. At the broadest level, the feature trends suggest both continuity and change in my listening habits. **Danceability** remains consistently high across the whole period, and **energy** also stays relatively high, which suggests that rhythmically engaging and intense tracks are a stable part of my taste. By contrast, **acousticness** rises over time, especially in the later years, which may indicate a gradual shift toward more acoustic or less densely produced music. **Valence** fluctuates more than the other features, suggesting that the affective tone of my favorite songs changes more from year to year than the basic rhythmic or energetic profile of the music.
 :::
 
 # Track-level features
+
+This section examines whether the broad track-level properties of my top songs remain consistent across years or reveal gradual changes in taste. Taken together, the boxplots and scatterplots suggest that my listening history is **more stable than volatile**: tempo, energy, and danceability remain concentrated in a similar range across years, while **valence varies more clearly**, indicating that mood shifted more than rhythmic drive or overall intensity.
 
 ## Column {width=50%}
 
@@ -47,7 +72,9 @@ This corpus overview shows that the dataset is evenly distributed across the yea
 
 ![](Images/All top songs/Week 7/valence_by_year.png){width=100%}
 
-These plots show that my listening habits were more stable in tempo than in valence. Across years, tempo medians remain concentrated in a similar moderate-to-fast range and the yearly distributions overlap strongly, suggesting continuity in the basic pulse or pacing of the songs I preferred. Valence, however, varies more from year to year, especially in the yearly #1 tracks, which indicates that the emotional colouring of my favourites shifted more than their rhythmic drive. Following the course material, this should be interpreted cautiously: tempo and valence are useful track-level summaries, but they capture only part of the music. Even so, the overall pattern suggests a relatively stable preference for a similar rhythmic zone, combined with greater flexibility in mood or affective tone.
+These plots show that my listening habits were **more stable in tempo than in valence**. The yearly tempo boxplots overlap strongly, and the medians remain concentrated in a similar moderate-to-fast range, which suggests continuity in the basic pacing or pulse of the songs I preferred. Valence, by contrast, varies more from year to year: the boxes shift more noticeably, and the yearly **#1 songs** move more clearly between higher- and lower-valence positions. This suggests that the emotional colouring of my favourite tracks changed more than their rhythmic framework.
+
+This difference becomes more meaningful when read alongside the scatterplots on the right. The boxplots show the same pattern in summary form that the feature clouds later confirm visually: **tempo stays comparatively anchored**, while affective character is more flexible. A careful interpretation is still necessary, since tempo and valence are only track-level summaries and do not capture all aspects of rhythm or expression. Even so, the overall pattern suggests that my taste remained tied to a fairly consistent rhythmic zone, while leaving more room for variation in mood or affective tone.
 :::
 
 ## Column {width=50%}
@@ -59,7 +86,9 @@ These plots show that my listening habits were more stable in tempo than in vale
 
 ![](Images/All top songs/Week 7/audio_feature_overview_by_year.png){width=100%}
 
-These figures position my top songs within a track-level feature space and suggest that my listening taste is more stable than volatile. Across most years, the songs cluster in a broadly similar region characterised by moderate-to-high energy and danceability, while valence varies more widely. This suggests a recurring preference for tracks with rhythmic drive and momentum, even when their affective character differs. The overlap between yearly clouds indicates that changes in taste were mostly gradual rather than abrupt. Where differences do appear, they are better understood as shifts in emphasis within a stable preference profile than as a complete stylistic break. The yearly #1 songs sometimes sit away from the centre of each cloud, which shows that standout favourites can be more exceptional than representative of my overall listening in that year.
+These figures place my top songs in a broader **track-level feature space** and reinforce the same story from a different angle. Across most years, the songs cluster in a similar region marked by **moderate-to-high energy and danceability**, while **valence is more dispersed**. This suggests that one stable component of my taste is a recurring preference for songs with rhythmic drive, momentum, and accessibility, even when their emotional tone differs. The strong overlap between yearly clouds indicates that changes in taste were mostly **gradual rather than abrupt**.
+
+Compared with the boxplots on the left, these scatterplots make visible not only yearly change but also the **shape and spread** of my listening profile. They show that stability is not just a matter of similar medians: my songs repeatedly occupy a similar feature region across years. At the same time, the yearly **#1 songs** sometimes fall away from the centre of each cloud, which means that standout favourites were not always fully representative of my broader listening in that year. Taken together, the boxplots and scatterplots suggest that my taste changed less through wholesale shifts in rhythmic or energetic profile and more through **shifts in emphasis within a stable feature space**, especially in the affective dimension represented here by valence.
 :::
 
 # Chroma features [pitch]
