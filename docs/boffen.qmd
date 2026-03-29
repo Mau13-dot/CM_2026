@@ -1,0 +1,64 @@
+---
+title: "CM 2026"
+author: "Maurits van der Does de Willebois"
+date: "2026-03-06"
+format:
+  dashboard:
+    theme: darkly
+    orientation: columns
+---
+
+# Background and dataset
+
+## Column {width=40%}
+
+### Row {height=60%}
+
+::: {.card}
+### Project overview
+
+This dashboard presents a computational musicological analysis of my own top songs from **2018 to 2025**, using a merged corpus based on my yearly **“Your Top Songs”** playlists. The main goal is to combine corpus-level patterns with close analysis of selected case-study tracks in order to understand both continuity and change in my listening history.
+
+The project is guided by the following three research questions:
+
+1. What are the most common musical features across my top songs?  
+2. How do these features evolve over time in my listening habits?  
+3. Did my tastes change over the years, and if so, how?  
+
+The full corpus is used for the broad statistical analyses, including track-level feature plots, tonal summaries, temporal summaries, and clustering. To complement those large-scale views, I also selected specific yearly top tracks for more detailed analyses in pitch, timbre, and rhythm.
+
+For the **pitch / chroma** section, I use the **#1 song of each year** as a set of yearly case studies. This makes it possible to compare representative top tracks from 2018 to 2025 while keeping the interpretation manageable. These chromagrams are then placed in a broader tonal context using key and mode information from the full merged dataset.
+
+For the **timbre** section, I use MFCC-based cepstrograms for the yearly top tracks and focus especially on three tracks that appeared most different in timbral character: **Blinding Lights (2020)**, **Dolla Dolla Bill (2021)**, and **Daylight (2023)**. These are compared through timbre self-similarity matrices in order to examine differences in texture, repetition, and structural contrast.
+
+For the **harmonic analysis** in Week 10, I focus on three tracks that seemed most different in pitch and harmonic organization: **Dolla Dolla Bill (2021)**, **Save Your Tears (2024)**, and **NUEVAYoL (2025)**. For these songs, I compare keygrams and chordograms to see how tonal centre and local harmonic content unfold over time.
+
+For the **temporal analysis** in Week 11, I selected **Blinding Lights (2020)**, **Ojitos Lindos (2022)**, and **NUEVAYoL (2025)** because they appear especially different in rhythmic pacing and beat structure. I use novelty curves and ACT tempograms to compare how strongly musical events and pulse organization emerge in these tracks.
+
+Finally, for **Week 12**, I use the merged corpus to perform hierarchical clustering based on track-level features. This helps test whether my listening history contains a few recurring “song types,” and whether the balance of those types changes across the years.
+:::
+
+## Column {width=60%}
+
+### Row {height=60%}
+
+::: {.panel-tabset .card}
+
+## Corpus
+The corpus consists of my merged **2018–2025 top songs dataset**, including track-level Spotify-style variables such as danceability, energy, loudness, acousticness, speechiness, valence, tempo, duration, key, mode, and time signature. This full dataset is used to answer the broader questions about recurring preferences and change over time.
+
+## Week 8
+For the chroma section, I use the **number-one song of each year** as a consistent set of representative case studies. These chromagrams are not intended to summarise every song in a year, but to show how the pitch-class profile of my yearly top tracks compares across time.
+
+## Week 9
+For timbre, I use **cepstrograms** for the yearly top tracks and **timbre self-similarity matrices** for selected contrasting songs. This allows me to examine whether repeated sections share similar sonic textures and whether some favorite tracks are smoother, more homogeneous, or more internally contrasted than others.
+
+## Week 10
+For harmonic interpretation, I use **keygrams** and **chordograms** for three selected tracks. These plots help move beyond static chroma patterns by showing how tonal centre and chordal content unfold through time.
+
+## Week 11
+For temporal structure, I combine corpus-level summaries such as **tempo**, **time signature**, and **duration** with track-level **novelty curves** and **ACT tempograms**. This allows me to compare general rhythmic tendencies in the full corpus with more detailed structural and beat-level behavior in selected tracks.
+
+## Week 12
+For the clustering section, I use the merged corpus to group songs according to shared feature profiles. This provides a more synthetic view of the corpus by asking whether my favorite tracks form recurring musical types, and whether those types are distributed differently across years.
+:::

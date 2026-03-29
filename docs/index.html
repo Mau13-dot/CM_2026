@@ -72,30 +72,51 @@ ul.task-list li input[type="checkbox"] {
         <div class="navbar-author">Maurits van der Does de Willebois</div>
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-welcome-to-my-git-cm-2026-page" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#welcome-to-my-git-cm-2026-page" data-scrolling="false" href="#welcome-to-my-git-cm-2026-page" aria-controls="welcome-to-my-git-cm-2026-page" aria-selected="true"><span class="nav-link-text">Welcome to my Git CM 2026 page!</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-background-and-dataset" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#background-and-dataset" data-scrolling="false" href="#background-and-dataset" aria-controls="background-and-dataset" aria-selected="true"><span class="nav-link-text">Background and dataset</span></a></li><li class="nav-item" role="presentation"><a id="tab-track-level-features" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#track-level-features" data-scrolling="false" href="#track-level-features" aria-controls="track-level-features" aria-selected="false"><span class="nav-link-text">Track-level features</span></a></li><li class="nav-item" role="presentation"><a id="tab-chroma-features-pitch" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#chroma-features-pitch" data-scrolling="false" href="#chroma-features-pitch" aria-controls="chroma-features-pitch" aria-selected="false"><span class="nav-link-text">Chroma features [pitch]</span></a></li><li class="nav-item" role="presentation"><a id="tab-loudness-and-timbre" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#loudness-and-timbre" data-scrolling="false" href="#loudness-and-timbre" aria-controls="loudness-and-timbre" aria-selected="false"><span class="nav-link-text">Loudness and timbre</span></a></li><li class="nav-item" role="presentation"><a id="tab-temporal-features-duration" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#temporal-features-duration" data-scrolling="false" href="#temporal-features-duration" aria-controls="temporal-features-duration" aria-selected="false"><span class="nav-link-text">Temporal features [duration]</span></a></li><li class="nav-item" role="presentation"><a id="tab-clustering" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#clustering" data-scrolling="false" href="#clustering" aria-controls="clustering" aria-selected="false"><span class="nav-link-text">Clustering</span></a></li><li class="nav-item" role="presentation"><a id="tab-contribution" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#contribution" data-scrolling="false" href="#contribution" aria-controls="contribution" aria-selected="false"><span class="nav-link-text">Contribution</span></a></li></ul></div></div>
 </nav>
 </header>
 <div class="page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">  
 
 <div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="fill" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div id="welcome-to-my-git-cm-2026-page" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-welcome-to-my-git-cm-2026-page">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 40fr) minmax(3em, 40fr);
+<div id="background-and-dataset" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-background-and-dataset">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 45fr) minmax(3em, 55fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 60fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
-grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<p>The github for Computation Musicology</p>
-<p>This repository contains the code and resources for the Computation Musicology course (CM_2026). The course covers various topics in computational musicology, including music analysis, music information retrieval, and machine learning applications in music.</p>
-<p>The corpus is based on my ‘Your Top 100’ playlists from the last 8 years, for which I will try to answer the following questions:</p>
-<pre class="{text}"><code>1. What are the most common musical features across my top songs?
-2. How do these features evolve over time in my listening habits?
-3. Did my tastes change over the years, and if so, how?</code></pre>
-<p>For week 9 and week 10, I chose two of my favorite songs from my corpus, which are also among the most popular songs in my playlists: “Brain Damage” by Pink Floyd and “Breathe (In the Air)” by Pink Floyd. I will compare the chroma and timbre self-similarity matrices for both songs, as well as the key and chord analyses, to explore their structural and harmonic characteristics.</p>
-<p>For week 11, I chose “Ingobernable” by C. Tangana and Gipsy Kings, which is a song I listened to often when I was in Seville. It is inspired by the flamenco style, which is known for its complex rhythms and energetic grooves. I will analyze the novelty curve and tempograms for this song to reveal its rhythmic structure and how it creates a sense of drive and momentum.</p>
-<p>For week 12, I will perform hierarchical clustering on the entire corpus of songs to see how they group together based on their musical features. I will visualize the dendrogram and heatmap to identify any patterns or clusters that emerge, and I will interpret these clusters in terms of genre, production style, vocal delivery, and other musical characteristics.</p>
+<div class="h4">
+Project
+
+overview
+</div>
+<p>This dashboard presents a computational musicological analysis of my own top songs from <strong>2018 to 2025</strong>, using a merged corpus based on my yearly <strong>“Your Top Songs”</strong> playlists. The aim is to understand both recurring preferences and long-term changes in my listening history.</p>
+<p>The project is guided by three research questions:</p>
+<ol type="1">
+<li>What are the most common musical features across my top songs?<br>
+</li>
+<li>How do these features evolve over time in my listening habits?<br>
+</li>
+<li>Did my tastes change over the years, and if so, how?</li>
+</ol>
+<p>The merged corpus is used for broad comparisons across years, while selected tracks are used for more detailed pitch, timbre, harmonic, and temporal analyses. Together, these different levels of analysis make it possible to compare overall listening patterns with close musical detail.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Corpus
+
+overview
+</div>
+<img src="Images/Page%201/corpus_overview_page1.png" class="img-fluid" style="width:100.0%">
+<p>This corpus overview shows that the dataset is evenly distributed across the years <strong>2018–2025</strong>, which makes year-by-year comparisons more reliable. The feature trends suggest both continuity and change in my listening habits. <strong>Danceability</strong> remains consistently high across the whole period, and <strong>energy</strong> also stays relatively high, which suggests that rhythmically engaging and intense tracks are a stable part of my taste. By contrast, <strong>acousticness</strong> rises over time, especially in the later years, which may indicate a gradual shift toward more acoustic or less densely produced music. <strong>Valence</strong> fluctuates more than the other features, suggesting that the emotional tone of my favorite songs changes from year to year rather than moving in a single direction.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -104,86 +125,109 @@ grid-auto-rows: minmax(0, 1fr);">
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 </div>
-</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 60fr); grid-auto-columns: minmax(0, 1fr);">
-<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+</div>
+</div><div id="track-level-features" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-track-level-features">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 50fr) minmax(3em, 50fr);
 grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Tempo
+
+and
+
+valence
+
+across
+
+years
+</div>
+<img src="Images/All%20top%20songs/Week%2011/tempo_by_year.png" class="img-fluid" style="width:100.0%">
+<img src="Images/All%20top%20songs/Week%207/valence_by_year.png" class="img-fluid" style="width:100.0%">
+<p>These plots show that my listening habits were more stable in tempo than in valence. Across years, tempo medians remain concentrated in a similar moderate-to-fast range and the yearly distributions overlap strongly, suggesting continuity in the basic pulse or pacing of the songs I preferred. Valence, however, varies more from year to year, especially in the yearly #1 tracks, which indicates that the emotional colouring of my favourites shifted more than their rhythmic drive. Following the course material, this should be interpreted cautiously: tempo and valence are useful track-level summaries, but they capture only part of the music. Even so, the overall pattern suggests a relatively stable preference for a similar rhythmic zone, combined with greater flexibility in mood or affective tone.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Energy,
+
+danceability,
+
+and
+
+overall
+
+feature
+
+space
+</div>
+<img src="Images/All%20top%20songs/Week%207/danceability_energy_by_year.png" class="img-fluid" style="width:100.0%">
+<img src="Images/All%20top%20songs/Week%207/audio_feature_overview_by_year.png" class="img-fluid" style="width:100.0%">
+<p>These figures position my top songs within a track-level feature space and suggest that my listening taste is more stable than volatile. Across most years, the songs cluster in a broadly similar region characterised by moderate-to-high energy and danceability, while valence varies more widely. This suggests a recurring preference for tracks with rhythmic drive and momentum, even when their affective character differs. The overlap between yearly clouds indicates that changes in taste were mostly gradual rather than abrupt. Where differences do appear, they are better understood as shifts in emphasis within a stable preference profile than as a complete stylistic break. The yearly #1 songs sometimes sit away from the centre of each cloud, which shows that standout favourites can be more exceptional than representative of my overall listening in that year.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div><div id="chroma-features-pitch" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-chroma-features-pitch">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 40fr) minmax(3em, 60fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Pitch
+
+overview
+
+across
+
+the
+
+corpus
+</div>
+<img src="Images/All%20top%20songs/Week%208/key%20by%20year%20with%20n1.png" class="img-fluid" style="width:100.0%">
+<p>This heatmap shows that my listening history contains some recurring tonal centres, rather than a completely different key profile every year. C# appears especially prominent across several years, while other years distribute more evenly across neighbouring keys, suggesting continuity with variation rather than a single fixed harmonic preference. The yearly #1 songs often fall outside the most common key of the year, which indicates that standout favourites were not always tonally typical of my broader listening. This should be interpreted cautiously: key is a useful harmonic summary derived from chroma or pitch-class information, but it compresses musical detail and may hide local modulations or modal differences. Overall, the plot suggests that my taste shows some stable tonal tendencies, but these coexist with enough yearly variation that the evidence supports recurrence rather than strict tonal uniformity.</p>
+<p>I chose three individual songs for closer chroma and self-similarity analysis because they represent different tonal centres rather than the same recurring key repeated three times. This makes them useful comparison cases: instead of only confirming that one key dominates my listening, they let me test whether songs in different keys still share broader harmonic tendencies or structural similarities. In that sense, the close readings complement the yearly heatmap by asking not just which keys recur in my listening history, but also how differently keyed songs organize and reuse pitch material over time.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <div class="panel-tabset card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Week 9</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Week 10</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Week 11</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false" href="">Week 12</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Chromagrams</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Pitch self-similarity</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Key and chord analysis</a></li></ul>
 <div class="tab-content card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div id="tabset-2-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<div class="quarto-layout-panel html-fill-item html-fill-container" data-layout="[[1,1],[1,1]]">
-<div class="quarto-layout-row html-fill-item html-fill-container">
-<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="Images/Week%209/Brain%20Damage%20Chroma.png" class="img-fluid" alt="Chroma"> <img src="Images/Week%209/Brain%20Damage%20Timbre.png" class="img-fluid" alt="Timbre"></p>
+<div id="tabset-1-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><img src="Images/All%20top%20songs/Week%208/New%20light.png" class="img-fluid" style="width:100.0%"> <img src="Images/All%20top%20songs/Week%208/Dolla%20Dolla%20Bill.png" class="img-fluid" style="width:100.0%"> <img src="Images/All%20top%20songs/Week%208/Ojitos%20lindos.png" class="img-fluid" style="width:100.0%"> These chromagrams deepen the earlier key-heatmap analysis by showing how pitch-class activity unfolds over time inside individual songs, rather than only summarizing each track with one global key label. The rows correspond to the twelve pitch classes, and brighter yellow-green bands indicate stronger activity in that pitch class at a given moment. In other words, the reader should look for which horizontal rows stay bright for long stretches and which combinations recur across the track. In New Light, activity is spread across several rows rather than being tightly concentrated in only a few; the most consistently active regions appear around A, G, E, D, and C, which makes the tonal field look relatively broad and fluid. In Dolla Dolla Bill, the brighter bands are concentrated more strongly around a smaller set of pitch classes, especially B, E, G, F#, and D, so the tonal space appears tighter and more repetitive. In Ojitos Lindos, the strongest emphasis is even more focused: the reader can look especially at C#, F#, Ab, Eb, and Bb, whose repeated brightness creates the clearest sense of a stable harmonic centre. This is why Ojitos Lindos aligns most clearly with its global key estimate in the earlier yearly heatmap.</p>
+<p>Taken together, these examples suggest that my listening history is shaped not only by recurring tonal centres across years, but also by different degrees of harmonic concentration and stability within songs. The earlier key heatmap identified broad yearly tendencies — for example, recurring prominence of certain tonal centres such as C#, and highlighted the #1 songs in G (2019), B (2021), and D#/Eb (2022). The chromagrams add detail by showing how those centres are actually distributed over time inside each song. Two tracks may both be associated with a clear tonal centre, but one may spread its activity across a wider pitch-class collection while another returns more insistently to a limited set of rows. That means the important thing to notice is not only the single “key” attached to a song, but also whether the graph shows a broad field of recurring pitch classes or a narrower and more persistent concentration. At the same time, chromagrams are still feature representations rather than exact harmonic transcriptions, so these patterns should be read as tonal tendencies rather than definitive proof of exact chords or modulations.</p>
 </div>
-<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="Images/Week%209/Breathe%20In%20the%20Air%20-%20Chroma.png" class="img-fluid" alt="Chroma"> <img src="Images/Week%209/Breathe%20In%20the%20Air%20-%20Timbre.png" class="img-fluid" alt="Timbre"></p>
-</div>
-</div>
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-<p>The chroma self-similarity matrices reveal recurring harmonic material in both songs, but Brain Damage shows a denser and more varied pattern than Breathe (In the Air), suggesting greater local harmonic contrast. The timbre self-similarity matrices show clearer sectional boundaries in both songs, indicating that changes in texture and production help define form more strongly than harmony alone. Overall, Breathe appears more smooth and structurally regular, while Brain Damage appears more segmented and internally varied.</p>
-</div>
-<div id="tabset-2-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<div class="quarto-layout-panel html-fill-item html-fill-container" data-layout="[[1,1],[1,1]]">
-<div class="quarto-layout-row html-fill-item html-fill-container">
-<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="Images/Week%2010/Brain%20Damage%20-%20key.png" class="img-fluid" style="width:100.0%" alt="Chroma"> <img src="Images/Week%2010/Brain%20Damage%20-%20chord.png" class="img-fluid" style="width:100.0%" alt="Chord"></p>
-</div>
-<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="Images/Week%2010/Breathe%20In%20the%20Air%20-%20key.png" class="img-fluid" style="width:100.0%" alt="Chroma"> <img src="Images/Week%2010/Breathe%20In%20the%20Air%20-%20chord.png" class="img-fluid" style="width:100.0%" alt="Chord"></p>
-</div>
-</div>
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-<p>The key analysis heatmaps are smoother and more stable than the chord analysis heatmaps for both songs, indicating that tonal centre is more constant over time than local chord content. Brain Damage shows a relatively stable tonal framework but a more varied chord profile, suggesting greater local harmonic movement within an overall coherent key area. In contrast, Breathe (In the Air) appears more harmonically uniform, with both the key and chord analyses showing more sustained and repetitive patterns. Overall, the comparison suggests that Breathe is tonally and harmonically more consistent, while Brain Damage contains more local harmonic contrast.</p>
-</div>
-<div id="tabset-2-3" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-3-tab">
-<div class="panel-tabset card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Novelty</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Autocorrelation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Fourier</a></li></ul>
-<div class="tab-content card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<section id="tabset-1-1" class="level3 tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-1-tab" height="60%">
-<h3 height="60%" data-anchor-id="tabset-1-1"></h3>
-<div class="quarto-figure quarto-figure-center html-fill-item html-fill-container">
-<figure class="figure">
-<p><img src="Images/Week%2011/Ingobernable_Novelty.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Novelty</figcaption>
-</figure>
-</div>
-</section>
 <div id="tabset-1-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="quarto-figure quarto-figure-center html-fill-item html-fill-container">
-<figure class="figure">
-<p><img src="Images/Week%2011/Ingobernable_Aut.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Autocorrelation</figcaption>
-</figure>
-</div>
+<img src="Images/All%20top%20songs/Week%208/2019_New_Light_pitch_self_similarity.png" class="img-fluid" style="width:100.0%">
+<img src="Images/All%20top%20songs/Week%208/2021_Dolla_Dolla_Bill_pitch_self_similarity.png" class="img-fluid" style="width:100.0%">
+<p><img src="Images/All%20top%20songs/Week%208/2022_Ojitos_Lindos_pitch_self_similarity.png" class="img-fluid" style="width:100.0%"> These pitch self-similarity matrices extend the earlier chromagram and key-based analyses by showing how harmonic material is reused over time within individual songs. Both axes represent time, so each point compares one moment in the song with another. The dark main diagonal from top left to bottom right is expected, because every moment is always maximally similar to itself. The most important places to look are therefore the off-diagonal shapes: when darker paths or blocks appear away from the main diagonal, they suggest that similar pitch material returns at different times. In line with the course material, repeated sections often appear as lines parallel to the main diagonal, while more internally stable or homogeneous sections appear as block-like regions.</p>
+<p>Among the three examples, Dolla Dolla Bill shows the clearest repeated sectional structure. The reader can see this most easily in the more visible dark off-diagonal bands and rectangular regions, especially through the middle and later portions of the matrix, which indicate that similar pitch configurations return in multiple places. New Light looks more diffuse: there are still repeated relations, but they are weaker and less cleanly segmented, so the eye catches fewer strong off-diagonal paths and fewer sharply bounded blocks. This makes its form look more continuous and less loop-like. Ojitos Lindos sits between these extremes. It still shows noticeable repeated relations, but they are less rigidly patterned than in Dolla Dolla Bill; the reader should look for broader areas of similarity and partial returns rather than expecting a strongly gridded pattern. Together, these differences suggest that the songs do not simply vary in tonal centre, but also in how clearly and regularly pitch material is repeated across sections.</p>
+<p>Taken together, the matrices add a structural perspective to the earlier key and chroma plots. The key heatmap showed broad yearly tonal tendencies, and the chromagrams showed which pitch classes remain active over time; the self-similarity matrices go one step further by showing whether that pitch material is reused in recurring formal units. The reader should therefore compare not just which song has the strongest tonal focus, but also which graph has the clearest off-diagonal returns, since those are the best visual clues for repetition and sectional recurrence. At the same time, these matrices are still feature-based representations rather than direct ground truth about form, so blurred or weak patterns do not mean that repetition is absent altogether; they may also reflect variation in voicing, texture, timing, or harmonic detail between repeated sections.</p>
 </div>
 <div id="tabset-1-3" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<div class="quarto-figure quarto-figure-center html-fill-item html-fill-container">
-<figure class="figure">
-<p><img src="Images/Week%2011/Ingobernable_Dft.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Fourier</figcaption>
-</figure>
-</div>
+<p>Place your selected keygrams and chordograms here.</p>
+<p>These figures provide a more detailed pitch-based view of the corpus by showing how pitch-class emphasis, repetition, and harmonic organization operate within selected tracks.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -197,38 +241,32 @@ grid-auto-rows: minmax(0, 1fr);">
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-<div class="html-fill-item html-fill-container bslib-grid" data-height="40%" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div><div id="loudness-and-timbre" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-loudness-and-timbre">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 35fr) minmax(3em, 65fr);
 grid-auto-rows: minmax(0, 1fr);">
-<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
-<div class="card-body html-fill-item html-fill-container">
-<p>Because Ingobernable has a strong flamenco-influenced sound, the figures show exactly the kind of rhythmic richness you would expect from a song with sharp accents, guitar-driven energy and a lot of internal motion in the groove. In the novelty curve, this is visible as many clear peaks, which suggests that the song has frequent and pronounced note attacks rather than a soft or blurred pulse. In the tempograms, both methods capture that pulse quite well, but they show it in slightly different ways: the autocorrelation tempogram contains several horizontal bands at different tempo levels, which makes the rhythm look layered and gives the impression that multiple metrical interpretations are active at once, while the Fourier tempogram looks cleaner and more focused with the strongest bands standing out more clearly. What is most visible in the images is that there are several related tempo bands stacked above one another, which points more toward tempo harmonics than sub-harmonics, and that fits the musical character of the song, because a flamenco-based groove often emphasizes not only the main beat but also its faster subdivisions. Together, the images suggest that Ingobernable is rhythmically strong, energetic and full of drive, and that its pulse is clear enough for both analyses to detect, with the Fourier tempogram giving the sharpest picture of that structure.</p>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-</div>
-</div>
-<div id="tabset-2-4" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
-<div class="quarto-layout-panel html-fill-item html-fill-container" data-layout="[[1,1]]">
-<div class="quarto-layout-row html-fill-item html-fill-container">
-<div class="quarto-layout-cell html-fill-item html-fill-container" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="Images/Week%2012/dendogram_2025.png" class="img-fluid" alt="Dendogram"> <img src="Images/Week%2012/Dendoheat_2025.png" class="img-fluid" alt="Dendogram Heatmap"></p>
+<div class="h4">
+Loudness
+
+in
+
+the
+
+corpus
 </div>
-</div>
-</div>
-</div>
-<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
-    <template>Expand</template>
-    <span class="bslib-full-screen-enter badge rounded-pill">
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
-    </span>
-</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
-<p>The hierarchical clustering suggests that the corpus is not split into a few perfectly clean genres, but into several broader families of tracks. One noticeable contrast is between quieter, more acoustic or instrumental tracks and louder, more energetic, more danceable tracks. For example, tracks such as “Piano Concerto No.&nbsp;2 in C Minor”, “The Lamp Is Low”, and “Fly Me To The Moon (In Other Words)” sit closer to the more acoustic/instrumental side of the corpus, while tracks such as “Losing It”, “LOVELY BASTARDS”, “Like That”, and “Not Like Us” fit much more clearly into the high-energy, louder, dance-oriented side. There also seems to be a speechier rap-leaning grouping, with songs such as “DNA.”, “HUMBLE.”, “family ties”, and “Not Like Us” likely being pulled together partly because of their stronger speech-like vocal delivery. In contrast, more melodic or classic-sounding tracks such as “This Charming Man - 2011 Remaster”, “Lady - Hear Me Tonight”, or “Little Lies - 2017 Remaster” seem to sit in a different part of the tree. Overall, the dendrogram suggests that the strongest organizing principles in this corpus are not just genre labels, but broader differences in production style, vocal delivery, acousticness, and intensity.</p>
+<p>Place your loudness-by-year plot here.</p>
+<p>This plot shows whether my preferred songs became louder, softer, or more variable in average intensity over time.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -236,12 +274,159 @@ grid-auto-rows: minmax(0, 1fr);">
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Cepstrograms</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Timbre self-similarity</a></li></ul>
+<div class="tab-content card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div id="tabset-2-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Place your selected cepstrograms here.</p>
+</div>
+<div id="tabset-2-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>Place your selected timbre self-similarity matrices here.</p>
+<p>These figures show how sonic texture changes within tracks and whether repeated sections share similar timbral profiles. Together, they help distinguish smoother, more homogeneous tracks from tracks with sharper internal contrasts.</p>
+</div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
     <span class="bslib-full-screen-enter badge rounded-pill">
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div><div id="temporal-features-duration" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-temporal-features-duration">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 40fr) minmax(3em, 60fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Corpus-level
+
+temporal
+
+structure
+</div>
+<img src="Images/All%20top%20songs/Week%2011/time_signature_by_year.png" class="img-fluid" style="width:100.0%">
+<img src="Images/All%20top%20songs/Week%2011/duration_by_year.png" class="img-fluid" style="width:100.0%">
+<p>These plots show whether my listening remains metrically stable, and whether track lengths become shorter, longer, or more variable over time.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="panel-tabset card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Novelty</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Tempograms</a></li></ul>
+<div class="tab-content card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div id="tabset-3-1" class="tab-pane active html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>Place your selected novelty curves here.</p>
+</div>
+<div id="tabset-3-2" class="tab-pane html-fill-item html-fill-container" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Place your selected ACT tempograms here.</p>
+<p>These plots show where strong musical changes occur and how clearly beat structure emerges over time in selected tracks.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div><div id="clustering" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-clustering">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 50fr) minmax(3em, 50fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Hierarchical
+
+clustering
+</div>
+<img src="Images/All%20top%20songs/Week%2012/week12_dendrogram_coloured_song_names.png" class="img-fluid" style="width:100.0%">
+<p>The dendrogram shows whether the corpus forms a few recurring groups of songs rather than one homogeneous collection. Colouring the song labels by year helps reveal whether certain listening periods cluster together.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+Cluster
+
+distribution
+
+and
+
+interpretation
+</div>
+<img src="Images/All%20top%20songs/Week%2012/week12_cluster_membership_by_year.png" class="img-fluid" style="width:100.0%">
+<img src="Images/All%20top%20songs/Week%2012/week12_cluster_feature_profiles_standardized.png" class="img-fluid" style="width:100.0%">
+<p>These plots show how the balance of clusters changes by year and which features distinguish those clusters. This helps identify recurring listening types and whether their relative importance shifts over time.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div><div id="contribution" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-contribution">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<div class="h4">
+What
+
+this
+
+analysis
+
+shows
+</div>
+<p>Across the full corpus, my top songs are not randomly distributed across musical feature space. Instead, they repeatedly return to a limited set of feature combinations, especially in terms of energy, danceability, tempo, and tonal organisation.</p>
+<p>At the same time, the analyses suggest that these preferences do not remain completely fixed. Some features remain quite stable across the years, while others shift more clearly. In particular, pitch, timbre, and temporal analyses suggest gradual changes in the character of my preferred songs rather than a complete break between early and later listening habits.</p>
+<p>Taken together, the results suggest that my music taste changed over time, but in a gradual way. The strongest pattern is not total replacement of one style by another, but a rebalancing of existing preferences: some core tendencies remain, while the relative importance of mood, texture, tonal emphasis, and rhythmic structure changes across years.</p>
+<p>This type of analysis could be useful for anyone interested in computational musicology as a way of describing personal listening history, especially when combining corpus-level summaries with close reading of selected tracks.</p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
@@ -250,8 +435,6 @@ grid-auto-rows: minmax(0, 1fr);">
     </span>
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div><div id="3ade8a4a-fb1d-4a6c-8409-ac45482d5fc9" class="hidden html-fill-item html-fill-container">
 
-</div>
-</div>
 </div>
 </div>
 </div>
